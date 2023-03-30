@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Align Content</title>
+    <style>
+        .container {
+            width: 70px;
+            height: 300px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .item {
+            background-color: deepskyblue;
+            width: 70px;
+            height: 70px;
+        }
+        .stretch {
+            align-content: stretch;
+        }
+        .flex-start {
+            align-content: flex-start;
+        }
+        .flex-end {
+            align-content: flex-end;
+        }
+        .center {
+            align-content: center;
+        }
+        .space-between {
+            align-content: space-between;
+        }
+        .space-around {
+            align-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>space between</p>
+    <div class="container space-between">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>space around</p>
+    <div class="container space-around">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>

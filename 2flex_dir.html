@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex direction</title>
+    <style>
+        .container1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .container3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container4 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .item {
+            background-color: darkseagreen;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Row</p>
+    <div class="container1">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <p>Row-reverse</p>
+    <div class="container2">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <p>Column</p>
+    <div class="container3">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <p>Column-reverse</p>
+    <div class="container4">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+</body>
+
+</html>

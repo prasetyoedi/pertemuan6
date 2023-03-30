@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Justify Content</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .flex-start{
+            justify-content: flex-start;
+        }
+        .flex-end{
+            justify-content: flex-end;
+        }
+        .center{
+            justify-content: center;
+        }
+        .space-between{
+            justify-content: space-between;
+        }
+        .space-around{
+            justify-content: space-around;
+        }
+        .item {
+            width: 75px;
+            height: 75px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>space between</p>
+    <div class="container space-between">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>space around</p>
+    <div class="container space-around">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
